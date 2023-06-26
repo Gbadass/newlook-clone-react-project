@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+*{
+  font-family:"Gibson","Helvetica","Arial",sans-serif; ;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav01{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.p01{
+  color: rgb(99, 98, 98);
+  margin-top: 30px;
+}
+
+.p03{
+  color: rgb(99, 98, 98);
+  margin-top: 30px;
+}
+
+.p02{
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: normal;
+  margin-top: 30px;
+ 
+}
+
+.icons-user{
+  margin-top: 13px;
+  font-size: 23px;
+  margin-left: 10px;
+  margin-top: 27px;
+}
+
+.cover001{
+  display: flex;
+}
+
+.cover002{
+  display: flex;
+}
+
+
+.icon-location{
+  margin-top: 12px;
+  font-size: 28px;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+.nav02{
+  background-color: #3c3c3c;
+  height: 55px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.ul-cover{
+  display: flex;
+  margin-left: -15px;
+  align-items: center;
+}
+
+.li01{
+  margin-left: 40px;
+  list-style: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input-cover input{
+  padding: 13px;
+  width: 200px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.like-icon{
+  font-size: 30px;
+  margin-left: 20px;
+  color: white;
+  margin-top: 5px;
+}
+
+.input-cover{
+  display: flex;
+  
+}
+
+.icon-bag{
+  font-size: 25px;
+  margin-right: 60px;
+  margin-left: 20px;
+  color: white;
+  margin-top: 5px;
+}
+
+.input-placeholder::placeholder{
+  font-size: 15px;
+  color: rgb(198, 198, 198);
+}
+
+.search-icon{
+  position: absolute;
+  right: 170px;
+  color: white;
+  font-size: 25px;
+  margin-top: 7px;
+}
+
+.nav03{
+  background-color: #D0DA4E;
+  height: 70px;
+}
+
+.nav03-p1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  
+}
+
+.nav03-p2{
+  font-size: 10px;
+  text-align: center;
+  color: grey;
+}
+
+.nav03-p2 span{
+  text-decoration: underline;
+}
+
+.section01{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.section01 img{
+  width: 100%;
 }
