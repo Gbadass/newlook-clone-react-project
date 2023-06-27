@@ -4,6 +4,9 @@ import Navigation from "./component/Navigation";
 import  First from "./component/First"
 import Second from "./component/Second";
 import Fourth from "./component/Fourth";
+import Fift from "./component/Fift";
+import Six from "./component/Six";
+import Footer from "./component/Footer";
 
 
 function App(){
@@ -13,6 +16,9 @@ function App(){
 <First/>
 <Second/>
 <Fourth/>
+<Fift/>
+<Six/>
+<Footer/>
 
     </div>
   )
