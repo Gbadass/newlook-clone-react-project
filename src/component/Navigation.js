@@ -1,5 +1,6 @@
 import {IconName, IoPersonOutline,IoLocationOutline, IoHeartOutline,IoBagOutline,IoSearch } from "react-icons/io5";
-
+import { Link } from "react-router-dom";
+import Seven from "./Clothing";
 
 
 function Navigation() {
@@ -22,7 +23,10 @@ function Navigation() {
       <ul className="ul-cover">
         <li className="li01">Womens</li>
         <li className="li01">Kids</li>
+        <Link to="/seven">
         <li className="li01">Mens</li>
+        </Link>
+
         <li className="li01">Sale</li>
       </ul>
 
@@ -51,6 +55,130 @@ function Navigation() {
         </div>
 
       </nav>
+
+      {/* <div className="dropdown-div">
+        <ul className="new-ul">
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Clothing
+          </Link>
+          </li>
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Shoes
+          </Link>
+          </li>
+
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Accessories & Bags
+          </Link>
+          </li>
+
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Brands
+          </Link>
+          </li>
+
+        </ul>
+
+      </div> */}
+
+{/* 
+      <div className="dropdown-div">
+        <ul className="new-ul">
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Girls
+          </Link>
+          </li>
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Boys
+          </Link>
+          </li>
+
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Brands
+          </Link>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+      <div className="dropdown-div">
+        <ul className="new-ul">
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Clothing
+          </Link>
+          </li>
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Brands
+          </Link>
+          </li>
+
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Shoes & Boots
+          </Link>
+          </li>
+
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Basics - from &pound;7.99
+          </Link>
+          </li>
+
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Accessories
+          </Link>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div className="dropdown-div">
+        <ul className="new-ul">
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Women
+          </Link>
+          </li>
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Girls
+          </Link>
+          </li>
+
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Boys
+          </Link>
+          </li>
+
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Men
+          </Link>
+          </li>
+
+          <li className="new-li">
+          <Link to="" className="dropdown-link1">
+          Accessories
+          </Link>
+          </li>
+
+        </ul>
+
+      </div> */}
     </div>
 
   )
