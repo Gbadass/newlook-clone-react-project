@@ -626,6 +626,36 @@ padding-top: 70px;
   margin-left: 70px;
 }
 
+.heart-icon000{
+  margin-top: 10px;
+  /* margin-left: 15px; */
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.heart-icon09{
+  margin-top: 10px;
+  /* margin-left: 15px; */
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.heart-iconn{
+  margin-top: 10px;
+  /* margin-left: 15px; */
+  font-size: 25px;
+  margin-left: 1px;
+}
+
+
+.heart-icon0000{
+  margin-top: 10px;
+  /* margin-left: 15px; */
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+
 .dicription-cont{
   display: flex;
 }
@@ -657,24 +687,24 @@ padding-top: 70px;
 }
 
 .rectangle-icon1{
-  font-size: 30px;
+  font-size: 25px;
   color: #bfe7d6;
 }
 .rectangle-icon2{
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(236, 235, 235);
 }
 
 .rectangle-icon3{
-  font-size: 30px;
+  font-size: 25px;
   color: #000000;
 }
 .rectangle-icon4{
-  font-size: 30px;
+  font-size: 25px;
   color:  #92b5d9;
 }
 .rectangle-icon5{
-  font-size: 30px;
+  font-size: 25px;
   color: #282d3c;
 }
 
@@ -695,6 +725,26 @@ border-top: 0.5px solid rgb(229, 226, 226);
     border-top: 0.5px solid rgb(229, 226, 226);
     
     }
+
+    .product-line-11{
+      margin-top: 30px;
+      border-top: 0.5px solid rgb(229, 226, 226);
+      
+      }
+
+      .product-line-111{
+        margin-top: 47px;
+        border-top: 0.5px solid rgb(229, 226, 226);
+        
+        }
+
+        .product-line1n{
+          margin-top: 25px;
+          border-top: 0.5px solid rgb(229, 226, 226);
+          
+          }
+
+
 
 
 .promo-tag img{
@@ -726,12 +776,37 @@ border-top: 0.5px solid rgb(229, 226, 226);
   left: 965px;
 }
 
+.banner-div1{
+  position: absolute;
+  height: 30px;
+  width: 150px;
+  background-color: #edf187ef;
+  display: flex;
+  align-items: center;
+  top: 6322px;
+  left: 60px;
+}
+
+.banner-div1-1{
+  position: absolute;
+  height: 30px;
+  width: 150px;
+  background-color: #edf187ef;
+  display: flex;
+  align-items: center;
+  top: 6322px;
+  left: 665px;
+}
+
+
 .bag-tag{
   font-size: 20px;
   color: rgb(125, 108, 108);
   margin-left: 3px;
 
 }
+
+
 
 .banner-divp{
   font-size: 12px;
@@ -753,4 +828,28 @@ border-top: 0.5px solid rgb(229, 226, 226);
   align-items: center;
   top: 1910px;
   left: 662px;
+}
+
+.next-div button{
+  padding: 15px;
+  padding-left:70px;
+  padding-right: 70px;
+  font-size: 16px;
+  background-color: white;
+  border: 0.5px  solid rgb(91, 91, 91);
+  color: rgb(136, 136, 136);
+  border-radius: 3px;
+box-shadow: 3px 2px 2px 2px rgb(246, 246, 246);
+}
+
+.next-div{
+  margin-top: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.next-div button:hover{
+  background-color: black;
+  color: white;
+
 }

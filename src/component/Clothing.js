@@ -31,6 +31,37 @@ import maaage002 from "./images/820921902.jpg"
 import maaage003 from "./images/820921541.jpg"
 import maaage004 from "./images/808380742.jpg"
 
+import maaage01 from "./images/808380741.jpg"
+import maaage02 from "./images/808380707.jpg"
+import maaage03 from "./images/808380701.jpg"
+import maaage04 from "./images/808377745.jpg"
+
+import aaage01 from "./images/808377744.jpg"
+import aaage02 from "./images/808377741.jpg"
+import aaage03 from "./images/808377707.jpg"
+import aaage04 from "./images/808377701.jpg"
+
+import aage01 from "./images/831098404M5.jpg"
+import aage02 from "./images/826097201.jpg"
+import aage03 from "./images/new1.webp"
+import aage04 from "./images/8504500993.jpg"
+
+import age01 from "./images/8504499992.jpg"
+import age02 from "./images/8504485992.jpg"
+import age03 from "./images/new2.webp"
+import age04 from "./images/new3.webp"
+
+
+import ge01 from "./images/new4.webp"
+import ge02 from "./images/new5.webp"
+import ge03 from "./images/new6.webp"
+import ge04 from "./images/new7.webp"
+
+import e01 from "./images/new8.webp"
+import e02 from "./images/new9.webp"
+import e03 from "./images/new10.webp"
+import e04 from "./images/new11.webp"
+import Footer from "./Footer";
 
 function Seven() {
   return (
@@ -660,7 +691,7 @@ function Seven() {
          <IoIosSquare className="rectangle-icon5"/>
          
          </div> */}
-         <hr className="product-line0" />
+         <hr className="product-line-1" />
         </div>
         <div className="clothing-innerdsect01">
           <img src={maaage004} alt="" />
@@ -693,6 +724,789 @@ function Seven() {
          <hr className="product-line" />
         </div>
       </div>
+
+
+      <div className="clothing-section0-2">
+      <div className="clothing-innerdsect01">
+          <img src={maaage01} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Navy Slime Suit Jacket </p>
+   
+           <IoIosHeartEmpty className="heart-icon00" />
+   
+          
+          </div>
+          {/* <p className="block-p"> sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;52.99</p>
+          {/* <p className="price-p2">&pound;21.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/> */}
+         
+         </div>
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={maaage02} alt="" />
+          <div className="dicription-cont">
+            <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div>
+          <p className="clothinh-innerdsecp">Gray Marl Slim Suit Jacket </p>
+   
+           <IoIosHeartEmpty className="heart-icon09" />
+   
+          
+          </div>
+          {/* <p className="block-p">Long Sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p1">&pound;39.99</p>
+          <p className="price-p2">&pound;52.99</p>
+          </div>
+
+         <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/> */}
+         
+         </div>
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={maaage03} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Black Slime Suit Jacket </p>
+   
+           <IoIosHeartEmpty className="heart-icon00" />
+   
+          
+          </div>
+          {/* <p className="block-p">Trouser</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;52.99</p>
+          {/* <p className="price-p2">&pound;27.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/> */}
+         
+         </div>
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={maaage04} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Bright Blue Skinny Fit Suit Jacket </p>
+   
+           <IoIosHeartEmpty className="heart-icon000" />
+   
+          
+          </div>
+          {/* <p className="block-p">Long Sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;52.99</p>
+          {/* <p className="price-p2">&pound;52.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         
+         </div>
+         <hr className="product-line" />
+        </div>
+      </div>
+
+      <div className="clothing-section0-2">
+      <div className="clothing-innerdsect01">
+          <img src={aaage01} alt="" />
+          <div className="dicription-cont">
+            <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div>
+          <p className="clothinh-innerdsecp">Bright Blue Skinny Fit </p>
+   
+           <IoIosHeartEmpty className="heart-icon0000" />
+   
+          
+          </div>
+          <p className="block-p"> Jacket</p>
+          {/* <p className="block-p">Long Sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p1">&pound;39.74</p>
+          <p className="price-p2">&pound;52.99</p>
+          </div>
+
+         <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         
+         </div>
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={aaage02} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Navy Skinny Fit Suit Jacket </p>
+   
+           <IoIosHeartEmpty className="heart-icon000" />
+   
+          
+          </div>
+          {/* <p className="block-p">Trouser</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;52.99</p>
+          {/* <p className="price-p2">&pound;27.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         
+         </div>
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={aaage03} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Grey Marl Skinny Fit Suit Jacket </p>
+   
+           <IoIosHeartEmpty className="heart-icon000" />
+   
+          
+          </div>
+          {/* <p className="block-p">Trouser</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;52.99</p>
+          {/* <p className="price-p2">&pound;27.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         
+         </div>
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={aaage04} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Bright Blue Skinny Fit Suit Jacket </p>
+   
+           <IoIosHeartEmpty className="heart-icon000" />
+   
+          
+          </div>
+          {/* <p className="block-p">Long Sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;52.99</p>
+          {/* <p className="price-p2">&pound;52.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         
+         </div>
+         <hr className="product-line" />
+        </div>
+      </div>
+
+      <div className="clothing-section0-2">
+      <div className="clothing-innerdsect01">
+          <img src={aage01} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">3 Pack Grey Cotton-Blend Boxers </p>
+   
+           <IoIosHeartEmpty className="heart-icon0000" />
+   
+          
+          </div>
+          {/* <p className="block-p"> Jacket</p> */}
+          {/* <p className="block-p">Long Sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;11.74</p>
+          {/* <p className="price-p2">&pound;52.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         {/* <IoIosSquareOutline className="rectangle-icon2"/> */}
+         <IoIosSquare className="rectangle-icon3"/>
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/> */}
+         
+         </div>
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={aage02} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Black Faux Fur Trim Hooded Paka Jacket</p>
+   
+           <IoIosHeartEmpty className="heart-icon000" />
+   
+          
+          </div>
+          {/* <p className="block-p">Trouser</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;64.99</p>
+          {/* <p className="price-p2">&pound;27.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         {/* <IoIosSquareOutline className="rectangle-icon2"/> */}
+         <IoIosSquare className="rectangle-icon3"/>
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+          */}
+         </div>
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={aage03} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Threadbare Blacked Cuffed Cargo Trouser </p>
+   
+           <IoIosHeartEmpty className="heart-iconn" />
+   
+          
+          </div>
+          {/* <p className="block-p">Trouser</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;30.00</p>
+          {/* <p className="price-p2">&pound;27.99</p> */}
+          </div>
+
+         {/* <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         
+         </div> */}
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={aage04} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">5 Multicoloured Colour Black </p>
+   
+           <IoIosHeartEmpty className="heart-icon000" />
+   
+          
+          </div>
+          <p className="block-p"> Strecth Socks</p>
+          {/* <p className="block-p">Long Sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;12.99</p>
+          {/* <p className="price-p2">&pound;52.99</p> */}
+          </div>
+
+         {/* <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         
+         </div> */}
+         <hr className="product-line" />
+        </div>
+      </div>
+
+      <div className="clothing-section0-2">
+      <div className="clothing-innerdsect01">
+          <img src={age01} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">5 Pack Multicoloured Block Socks </p>
+   
+           <IoIosHeartEmpty className="heart-icon0000" />
+   
+          
+          </div>
+          {/* <p className="block-p"> Jacket</p> */}
+          {/* <p className="block-p">Long Sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;12.74</p>
+          {/* <p className="price-p2">&pound;52.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         {/* <IoIosSquare className="rectangle-icon1"/> */}
+         {/* <IoIosSquareOutline className="rectangle-icon2"/> */}
+         {/* <IoIosSquare className="rectangle-icon3"/> */}
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/> */}
+         
+         </div>
+         <hr className="product-line-111" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={age02} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">5 Pack Grey Black and Khaki Mixed</p>
+   
+           <IoIosHeartEmpty className="heart-icon0000" />
+   
+      
+          </div>
+          <p className="block-p"> Pattern Socks</p>
+          {/* <p className="block-p">Trouser</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;11.99</p>
+          {/* <p className="price-p2">&pound;27.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         {/* <IoIosSquare className="rectangle-icon1"/> */}
+         {/* <IoIosSquareOutline className="rectangle-icon2"/> */}
+         {/* <IoIosSquare className="rectangle-icon3"/> */}
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+          */}
+         </div>
+         <hr className="product-line-11" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={age03} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">White Long Sleeve Muscle Fit Oxford Shirt</p>
+   
+           <IoIosHeartEmpty className="heart-iconn" />
+   
+          
+          </div>
+          {/* <p className="block-p">Trouser</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;19.99</p>
+          {/* <p className="price-p2">&pound;27.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         {/* <IoIosSquare className="rectangle-icon1"/> */}
+
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+          */}
+         </div>
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={age04} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Black Long Sleeve Muscle Fit Oxford Shirt </p>
+   
+           <IoIosHeartEmpty className="heart-icon" />
+   
+          
+          </div>
+          {/* <p className="block-p"> Strecth Socks</p> */}
+          {/* <p className="block-p">Long Sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;19.99</p>
+          {/* <p className="price-p2">&pound;52.99</p> */}
+          </div>
+
+         { <div className="rectangle-cont">
+         {/* <IoIosSquare className="rectangle-icon1"/> */}
+
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/> */}
+         
+         </div> }
+         <hr className="product-line" />
+        </div>
+      </div>
+
+      <div className="clothing-section0-2">
+      <div className="clothing-innerdsect01">
+          <img src={ge01} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Navy Poplin Short Sleeve Muscle Fit Shirt </p>
+   
+           <IoIosHeartEmpty className="heart-icon" />
+   
+          
+          </div>
+          {/* <p className="block-p"> Jacket</p> */}
+          {/* <p className="block-p">Long Sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;18.74</p>
+          {/* <p className="price-p2">&pound;52.99</p> */}
+          </div>
+
+          <div className="rectangle-cont">
+         {/* <IoIosSquare className="rectangle-icon1"/>  */}
+          <IoIosSquareOutline className="rectangle-icon2"/> 
+          <IoIosSquare className="rectangle-icon3"/>
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+          */}
+         </div>
+         <hr className="product-line-11" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={ge02} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">White Poplin Short Sleeve Muscle Fit Shirt</p>
+   
+           <IoIosHeartEmpty className="heart-icon0000" />
+   
+      
+          </div>
+          {/* <p className="block-p"> Pattern Socks</p> */}
+          {/* <p className="block-p">Trouser</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;18.99</p>
+          {/* <p className="price-p2">&pound;27.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         {/* <IoIosSquare className="rectangle-icon1"/>  */}
+          <IoIosSquareOutline className="rectangle-icon2"/> 
+          <IoIosSquare className="rectangle-icon3"/>
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+          */}
+         </div>
+         <hr className="product-line-11" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={ge03} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Blue Poplin Short Sleeve Muscle Fit Shirt</p>
+   
+           <IoIosHeartEmpty className="heart-iconn" />
+   
+          
+          </div>
+          {/* <p className="block-p">Trouser</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;15.99</p>
+          {/* <p className="price-p2">&pound;27.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         {/* <IoIosSquare className="rectangle-icon1"/> */}
+
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+          <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         {/* <IoIosSquare className="rectangle-icon4"/> */}
+         {/*<IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+          */}
+         </div>
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={ge04} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Navy Popline Short Sleeve Muscle Fit Shirt </p>
+   
+           <IoIosHeartEmpty className="heart-icon" />
+   
+          
+          </div>
+          {/* <p className="block-p"> Strecth Socks</p> */}
+          {/* <p className="block-p">Long Sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;15.99</p>
+          {/* <p className="price-p2">&pound;52.99</p> */}
+          </div>
+
+         { <div className="rectangle-cont">
+         {/* <IoIosSquare className="rectangle-icon1"/> */}
+
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+          <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         {/*<IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/> */}
+         
+         </div> }
+         <hr className="product-line" />
+        </div>
+      </div>
+
+      <div className="clothing-section0-2">
+        <div className="clothing-innerdsect01">
+          <img src={e01} alt="" />
+          <div className="dicription-cont">
+          <p className="clothinh-innerdsecp">White Poplin Short Sleeve Muscle Fit Shirt</p>
+           <IoIosHeartEmpty className="heart-icon-1" />
+          
+          </div>
+          <p className="price-p">&pound;15.99</p>
+          <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         {/* <IoIosSquare className="rectangle-icon5"/> */}
+         
+         </div> 
+         <hr className="product-line1n" />
+
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={e02} alt="" />
+          <div className="dicription-cont">
+          <p className="clothinh-innerdsecp"> Black Poplin Short Sleeve Muscle Fit Shirt </p> <IoIosHeartEmpty className="heart-icon-1" />
+          
+          </div>
+          <p className="price-p">&pound;22.99</p>
+         {/* <div className="rectangle-cont">
+         <IoIosSquare className="rectangle-icon1"/>
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         
+         </div> */}
+         <hr className="product-line-1" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={e03} alt="" />
+          <div className="dicription-cont">
+            {/* <div className="promo-tag">
+              <img src={Promoimage} alt="" />
+            </div> */}
+          <p className="clothinh-innerdsecp">Black Poplin Short Sleeve Regular Fit shirt </p>
+   
+           <IoIosHeartEmpty className="heart-icon" />
+           <div className="banner-div1-1">
+          <IoBagOutline className="bag-tag"/>
+          <p className="banner-divp"><span>Great Choice</span> 5 sold</p>
+          </div>
+   
+          
+          </div>
+          {/* <p className="block-p">long sleeve Hoodie</p> */}
+          <div className="price-cont">
+          <p className="price-p">&pound;17.99</p>
+          {/* <p className="price-p2">&pound;17.99</p> */}
+          </div>
+
+         <div className="rectangle-cont">
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+
+         <IoIosSquare className="rectangle-icon3"/>
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/> */}
+         
+         </div>
+         <hr className="product-line" />
+        </div>
+        <div className="clothing-innerdsect01">
+          <img src={e04} alt="" />
+          <div className="dicription-cont">
+          <p className="clothinh-innerdsecp">Stone Jersey Tie Waist Cargo Short </p> <IoIosHeartEmpty className="heart-icon" />
+          <div className="banner-div1">
+          <IoBagOutline className="bag-tag"/>
+          <p className="banner-divp"><span>Great Choice</span> 15 sold</p>
+          </div>
+          
+          </div>
+          <p className="price-p">&pound;16.99</p>
+          <div className="rectangle-cont">
+         <IoIosSquareOutline className="rectangle-icon2"/>
+         <IoIosSquare className="rectangle-icon3"/>
+
+         <IoIosSquare className="rectangle-icon3"/>
+         {/* <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/>
+         <IoIosSquare className="rectangle-icon4"/>
+         <IoIosSquare className="rectangle-icon5"/> */}
+         
+         </div>
+         <hr className="product-line" />
+        </div>
+      </div>
+
+      <div className="next-div">
+          <button>Load next 48</button>
+      </div>
+      <Footer/>
     </div>
 
 
