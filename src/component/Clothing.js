@@ -62,6 +62,7 @@ import e02 from "./images/new9.webp"
 import e03 from "./images/new10.webp"
 import e04 from "./images/new11.webp"
 import Footer from "./Footer";
+import { Link } from "react-router-dom"
 
 function Seven() {
   return (
@@ -129,8 +130,8 @@ function Seven() {
       </div>
 
       <p className="content-p">Showing 48 of 1291 items </p>
-
-      <div className="clothing-section02">
+        <Link to="/product" className="single-product-div">
+        <div className="clothing-section02">
         <div className="clothing-innerdsect01">
           <img src={imagee01} alt="" />
           <div className="dicription-cont">
@@ -201,6 +202,8 @@ function Seven() {
          <hr className="product-line" />
         </div>
       </div>
+        </Link>
+
 
       <div className="clothing-section0-2">
         <div className="clothing-innerdsect01">
