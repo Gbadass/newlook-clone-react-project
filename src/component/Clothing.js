@@ -130,14 +130,20 @@ function Seven() {
       </div>
 
       <p className="content-p">Showing 48 of 1291 items </p>
-        <Link to="/product" className="single-product-div">
+        {/* <Link to="/product" className="single-product-div"> */}
+        
+       
         <div className="clothing-section02">
         <div className="clothing-innerdsect01">
+          
           <img src={imagee01} alt="" />
+          <Link to="/product">
           <div className="dicription-cont">
-          <p className="clothinh-innerdsecp">Pale Blue Short Sleeve Muscle Fit Oxford shirt</p> <IoIosHeartEmpty className="heart-icon" />
+          
+          <p className="clothinh-innerdsecp">Pale Blue Short Sleeve Muscle Fit Oxford  shirt</p> <IoIosHeartEmpty className="heart-icon" />
           
           </div>
+          </Link>
           <p className="price-p">&pound;17.99</p>
          <div className="rectangle-cont">
          <IoIosSquare className="rectangle-icon1"/>
@@ -202,7 +208,7 @@ function Seven() {
          <hr className="product-line" />
         </div>
       </div>
-        </Link>
+        {/* </Link> */}
 
 
       <div className="clothing-section0-2">

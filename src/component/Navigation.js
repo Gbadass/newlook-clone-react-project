@@ -1,48 +1,135 @@
-import {IconName, IoPersonOutline,IoLocationOutline, IoHeartOutline,IoBagOutline,IoSearch } from "react-icons/io5";
+import { IconName, IoPersonOutline, IoLocationOutline, IoHeartOutline, IoBagOutline, IoSearch } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import Seven from "./Clothing";
+import { useState } from "react";
 
 
 function Navigation() {
+
+  const [isHovered, setIsHovered] = useState(false)
+
+  const handleIconHover = () => {
+    setIsHovered(true)
+  }
+
+  const handleIconLeave = () => {
+    setIsHovered(false)
+  }
+
+  const [isWomenHovered, setIsWomenHovered] = useState(false);
+
+  const handleWomenHover = () => {
+    setIsWomenHovered(true);
+  };
+
+  const handleWomenLeave = () => {
+    setIsWomenHovered(false);
+  };
+
+  const [isKidHovered, setIsKidHovered] = useState(false);
+
+  const handleKidHover = () => {
+    setIsKidHovered(true);
+  };
+
+  const handleKidLeave = () => {
+    setIsKidHovered(false);
+  };
+
+
+  const [isMensHovered, setIsMensHovered] = useState(false);
+
+  const handleMensHover = () => {
+    setIsMensHovered(true);
+  };
+
+  const handleMensLeave = () => {
+    setIsMensHovered(false);
+  };
+
+  const [isSalesHovered, setIsSalesHovered] = useState(false);
+
+  const handleSalesHover = () => {
+    setIsSalesHovered(true);
+  };
+
+  const handleSalesLeave = () => {
+    setIsSalesHovered(false);
+  };
+
+  
+
   return (
     <div>
       <nav className="nav01">
         <div className="cover002">
-        <IoLocationOutline className="icon-location"/>
-        <p className="p01">Find a store</p>
+          <IoLocationOutline className="icon-location" />
+          <p className="p01">Find a store</p>
         </div>
 
         <p className="p02">NEW LOOK</p>
-        <div className="cover001">
-        <p className="p03"> Account </p>
-        <IoPersonOutline className="icons-user"/>
+        <div className={`cover001 ${isHovered ? "hovered" : ""}`}
+          onMouseEnter={handleIconHover}
+          onMouseLeave={handleIconLeave}>
+          <p className="p03"> Account </p>
+          <IoPersonOutline className="icons-user" />
+          <div className="login-dropdown">
+
+            <button>Sign up</button>
+            <hr className="newline" />
+            <Link to="/signup" className="signup-link">
+            <p>Create Account</p>
+            </Link>
+          </div>
         </div>
+
+        {/* <div>
+
+        </div> */}
 
       </nav>
       <nav className="nav02">
-      <ul className="ul-cover">
-        <li className="li01">Womens</li>
-        <li className="li01">Kids</li>
-        <Link to="/seven">
-        <li className="li01">Mens</li>
-        </Link>
+        <ul className="ul-cover">
+          <div className={`li01-div1 ${isWomenHovered ? "hovered" : ""}`}
+            onMouseEnter={handleWomenHover}
+            onMouseLeave={handleWomenLeave}>
+            <li className="li-women" >Womens</li>
+          </div>
+          <div className={`li01-div2 ${isKidHovered ? "hovered" : ""}`}
+            onMouseEnter={handleKidHover}
+            onMouseLeave={handleKidLeave}>
+            <li className="li-women2">Kids</li>
+          </div>
+          <div className={`li01-div3 ${isMensHovered ? "hovered" : ""}`}
+          onMouseEnter={handleMensHover}
+            onMouseLeave={handleMensLeave}>
+            <Link to="">
+              <li className="li-women3">Mens</li>
+            </Link>
+          </div>
 
-        <li className="li01">Sale</li>
-      </ul>
+          <div className={`li01-div4 ${isSalesHovered ? "hovered" : ""}` }
+                    onMouseEnter={handleSalesHover}
+                    onMouseLeave={handleSalesLeave}>
+          <li className="li-women4">Sale</li>
+          </div>
+
+        
+        </ul>
 
         <div className="input-cover">
           <div>
-          <input type="text" className="input-placeholder" placeholder="Search" />
-          <IoSearch className="search-icon"/>
+            <input type="text" className="input-placeholder" placeholder="Search" />
+            <IoSearch className="search-icon" />
           </div>
 
-        <div>
-        <IoHeartOutline className="like-icon"/>
-        </div>
+          <div>
+            <IoHeartOutline className="like-icon" />
+          </div>
 
-        <div>
-        <IoBagOutline className="icon-bag"/>
-        </div>
+          <div>
+            <IoBagOutline className="icon-bag" />
+          </div>
 
         </div>
 
@@ -50,43 +137,50 @@ function Navigation() {
 
       <nav className="nav03">
         <div className="nav03-div1">
-        <p className="nav03-p1">Shop budget-proof fashion favourites <br /> & limited-time price drop down!*</p>
-        <p className="nav03-p2"><span >T&Cs apply.</span> Selected lines only</p>
+          <p className="nav03-p1">Shop budget-proof fashion favourites <br /> & limited-time price drop down!*</p>
+          <p className="nav03-p2"><span >T&Cs apply.</span> Selected lines only</p>
         </div>
 
       </nav>
+      {isWomenHovered && (
+        <div className={`dropdown-div ${isWomenHovered ? "show" : ""}`}
+          onMouseEnter={handleWomenHover}
+          onMouseLeave={handleWomenLeave}
+        >
+          <ul className="new-ul">
+            <li className="new-li">
+              <Link to="" className="dropdown-link1">
+                Clothing
+              </Link>
+            </li>
+            <li className="new-li">
+              <Link to="" className="dropdown-link1">
+                Shoes
+              </Link>
+            </li>
 
-      {/* <div className="dropdown-div">
-        <ul className="new-ul">
-          <li className="new-li">
-          <Link to="" className="dropdown-link1">
-          Clothing
-          </Link>
-          </li>
-          <li className="new-li">
-          <Link to="" className="dropdown-link1">
-          Shoes
-          </Link>
-          </li>
+            <li className="new-li">
+              <Link to="" className="dropdown-link1">
+                Accessories & Bags
+              </Link>
+            </li>
 
-          <li className="new-li">
-          <Link to="" className="dropdown-link1">
-          Accessories & Bags
-          </Link>
-          </li>
+            <li className="new-li">
+              <Link to="" className="dropdown-link1">
+                Brands
+              </Link>
+            </li>
 
-          <li className="new-li">
-          <Link to="" className="dropdown-link1">
-          Brands
-          </Link>
-          </li>
+          </ul>
 
-        </ul>
+        </div>
+      )}
 
-      </div> */}
-
-{/* 
-      <div className="dropdown-div">
+    {isKidHovered && ( 
+      <div className={`dropdown-div2 ${isKidHovered ? "show": ""}`}
+      onMouseEnter={handleKidHover}
+      onMouseLeave={handleKidLeave}
+      >
         <ul className="new-ul">
           <li className="new-li">
           <Link to="" className="dropdown-link1">
@@ -109,11 +203,14 @@ function Navigation() {
         </ul>
 
       </div>
-
-      <div className="dropdown-div">
+  )}
+        {isMensHovered && (
+      <div className={`dropdown-div3 ${isMensHovered ? "Show" : ""}`}
+      onMouseEnter={handleMensHover}
+      onMouseLeave={handleMensLeave}>
         <ul className="new-ul">
           <li className="new-li">
-          <Link to="" className="dropdown-link1">
+          <Link to="/seven" className="dropdown-link1">
           Clothing
           </Link>
           </li>
@@ -144,8 +241,12 @@ function Navigation() {
         </ul>
 
       </div>
+        )}
 
-      <div className="dropdown-div">
+      {isSalesHovered && (
+      <div className={`dropdown-div4 ${isSalesHovered ? "show" : ""}` }
+      onMouseEnter={handleSalesHover}
+      onMouseLeave={handleSalesLeave}>
         <ul className="new-ul">
           <li className="new-li">
           <Link to="" className="dropdown-link1">
@@ -178,7 +279,9 @@ function Navigation() {
 
         </ul>
 
-      </div> */}
+      </div> 
+      )}
+
     </div>
 
   )

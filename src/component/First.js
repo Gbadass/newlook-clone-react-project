@@ -102,7 +102,7 @@ function First() {
 
         </div>
         <div className="fourth-innerd1">
-          <img src={img011} alt="" />
+          <img src={img11} alt="" />
 
         </div>
         <div className="fourth-innerd1">
@@ -183,7 +183,7 @@ function First() {
 
         </div>
         <div className="fourth-innerd1">
-          <img src={img11} alt="" />
+          <img src={img011} alt="" />
 
         </div>
         <div className="fourth-innerd1">
@@ -195,7 +195,7 @@ function First() {
 
         </div>
         <div className="fourth-innerd1">
-          <img src={img14} alt="" />
+          <img src={img014} alt="" />
 
         </div>
 
