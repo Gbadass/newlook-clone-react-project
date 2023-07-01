@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Seven from "./component/Clothing";
 import Product from "./pages/Product";
 import Signup from "./pages/Signup";
+import Login from "./pages/Login";
 
 
 function App(){
@@ -15,6 +16,7 @@ function App(){
         <Route path="/seven" element={<Seven/>}/>
         <Route path="/product" element={<Product/>}></Route>
         <Route path="/signup" element={<Signup/>}/>
+        <Route path="/login" element={<Login/>}/>
 
         
 

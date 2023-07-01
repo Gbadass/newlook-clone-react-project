@@ -74,8 +74,10 @@ function Navigation() {
           <p className="p03"> Account </p>
           <IoPersonOutline className="icons-user" />
           <div className="login-dropdown">
-
-            <button>Sign up</button>
+              <Link to="/login">
+              <button>Sign up</button>
+              </Link>
+           
             <hr className="newline" />
             <Link to="/signup" className="signup-link">
             <p>Create Account</p>
