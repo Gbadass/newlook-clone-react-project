@@ -18,6 +18,7 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { IoChevronForward } from "react-icons/io5";
 import { useState } from "react";
 import Footer from "../component/Footer"
+import { Link } from "react-router-dom"
 
 
 
@@ -124,8 +125,10 @@ function Product() {
             <p className="size-guide">Size Guide</p>
           </div>
 
-
+          <Link to="/cart">
           <button className="addtobag">ADD TO BAG</button>
+          </Link>
+
 
 
 
@@ -287,7 +290,10 @@ function Product() {
               <p>Choose Size <FaChevronDown className="sorted-arrow01" /></p>
             </div>
             <div>
+              <Link to="/cart">
               <button className="addtobag01">ADD TO BAG</button>
+              </Link>
+  
             </div>
 
 
