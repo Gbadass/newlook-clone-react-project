@@ -63,8 +63,27 @@ import e03 from "./images/new10.webp"
 import e04 from "./images/new11.webp"
 import Footer from "./Footer";
 import { Link } from "react-router-dom"
+import { useState, useEffect } from "react";
 
-function Seven() {
+function Clothing() {
+
+  const [geraldData, setGeraldData] = useState([])
+  const getData = (category) => {
+    fetch(`http://159.65.21.42:9000/products`)
+    .then((resp) => resp.json())
+    .then((data) => {
+      const filteredData = data.filter((item)=> item.category === category);
+      setGeraldData(filteredData)
+    })
+    .catch((err) => {
+      console.log("error fetching data", err)
+    })
+  }
+
+  useEffect(() => {
+    getData("Gerald")
+  })
+
   return (
     <div>
       <Navigation />
@@ -134,17 +153,18 @@ function Seven() {
         
        
         <div className="clothing-section02">
-        <div className="clothing-innerdsect01">
+        {geraldData && geraldData.map((items) => (
+        <div className="clothing-innerdsect01" key={geraldData.id}>
           
-          <img src={imagee01} alt="" />
-          <Link to="/product">
+          <img className="" src={items.image} alt="" />
+          <Link to={`/clothing/${items.category}/${items._id}`}>
           <div className="dicription-cont">
           
-          <p className="clothinh-innerdsecp">Pale Blue Short Sleeve Muscle Fit Oxford  shirt</p> <IoIosHeartEmpty className="heart-icon" />
+          <p className="clothinh-innerdsecp">{items.name}</p> <IoIosHeartEmpty className="heart-icon" />
           
           </div>
           </Link>
-          <p className="price-p">&pound;17.99</p>
+          <p className="price-p">&pound;{items.price}</p>
          <div className="rectangle-cont">
          <IoIosSquare className="rectangle-icon1"/>
          <IoIosSquareOutline className="rectangle-icon2"/>
@@ -156,6 +176,7 @@ function Seven() {
          <hr className="product-line" />
 
         </div>
+           ))}
         <div className="clothing-innerdsect01">
           <img src={imagee02} alt="" />
           <div className="dicription-cont">
@@ -1522,4 +1543,4 @@ function Seven() {
   )
 }
 
-export default Seven
+export default Clothing

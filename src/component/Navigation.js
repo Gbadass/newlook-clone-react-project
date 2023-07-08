@@ -2,9 +2,13 @@ import { IconName, IoPersonOutline, IoLocationOutline, IoHeartOutline, IoBagOutl
 import { Link } from "react-router-dom";
 import Seven from "./Clothing";
 import { useState } from "react";
-
+import { useContext } from "react";
+import { Newlookcontext } from "../component/Context/Newlookcontext";
 
 function Navigation() {
+
+  const contextData = useContext(Newlookcontext) 
+  const {cart, setCart} = contextData
 
   const [isHovered, setIsHovered] = useState(false)
 
@@ -127,10 +131,12 @@ function Navigation() {
 
           <div>
             <IoHeartOutline className="like-icon" />
+            <span className="like-span">1</span>
           </div>
 
           <div>
             <IoBagOutline className="icon-bag" />
+            <span className="cart-span">{cart.length? (cart.length) : (null)}</span>
           </div>
 
         </div>
@@ -212,7 +218,7 @@ function Navigation() {
       onMouseLeave={handleMensLeave}>
         <ul className="new-ul">
           <li className="new-li">
-          <Link to="/seven" className="dropdown-link1">
+          <Link to="/clothing" className="dropdown-link1">
           Clothing
           </Link>
           </li>

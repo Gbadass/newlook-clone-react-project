@@ -80,6 +80,19 @@
   margin-left: 20px;
   color: white;
   margin-top: 5px;
+  position: relative;
+}
+
+.like-span{
+  position: absolute;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  right: 100px;
+
+
 }
 
 .input-cover {
@@ -93,7 +106,21 @@
   margin-left: 20px;
   color: white;
   margin-top: 5px;
+  position: relative;
 }
+
+.cart-span{
+  position: absolute;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  right: 50px;
+
+
+}
+
 
 .input-placeholder::placeholder {
   font-size: 15px;
@@ -577,6 +604,10 @@ align-items: center;
   margin-top: 20px;
   margin-left: 50px;
 }
+.image-adjust{
+  width: 300px;
+  
+}
 
 .slanted-line {
   height: 11px;
@@ -722,7 +753,7 @@ align-items: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  margin-top: 180px;
+  /* margin-top: 180px; */
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -734,6 +765,7 @@ align-items: center;
 
 .clothing-innerdsect01 {
   height: 310px;
+  margin-top: 150px;
 }
 
 .clothinh-innerdsecp {
@@ -1002,6 +1034,11 @@ align-items: center;
 }
 
 .product-details-div1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-details-div2 img {
   width: 100%;
   height: 100%;
 }
@@ -2118,11 +2155,15 @@ text-decoration: underline;
   border: 1px solid rgb(229, 229, 229);
   margin-top: 50px;
   width: 30%;
-  height: 850px;
+  height: 1100px;
   margin-left: 35%;
   margin-bottom: 50px;
   
 
+}
+
+.newred{
+  color: red;
 }
 
 .button-divssection01-1{
@@ -2165,8 +2206,8 @@ text-decoration: underline;
 
 .createmy{
   padding: 15px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-left: 40px;
   margin-top: 20px;
   color: black;
@@ -2176,6 +2217,19 @@ text-decoration: underline;
   box-shadow: 2px 2px 2px 1px rgb(223, 223, 223);
 }
 
+
+.createmy01{
+  padding: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: black;
+  background-color: #00D0A6;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 1px rgb(223, 223, 223);
+}
 
 
 .createaza-p{
