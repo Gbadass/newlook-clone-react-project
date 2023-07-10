@@ -567,6 +567,7 @@ align-items: center;
     list-style: none;
     color: white;
     margin-left: 10px;
+    text-decoration: none;
    
 }
 
@@ -944,7 +945,7 @@ align-items: center;
   background-color: #edf187ef;
   display: flex;
   align-items: center;
-  top: 1910px;
+  top: 2060px;
   left: 965px;
 }
 
@@ -955,7 +956,7 @@ align-items: center;
   background-color: #edf187ef;
   display: flex;
   align-items: center;
-  top: 6322px;
+  top: 6290px;
   left: 60px;
 }
 
@@ -966,7 +967,7 @@ align-items: center;
   background-color: #edf187ef;
   display: flex;
   align-items: center;
-  top: 6322px;
+  top: 6290px;
   left: 665px;
 }
 
@@ -998,7 +999,7 @@ align-items: center;
   background-color: #edf187ef;
   display: flex;
   align-items: center;
-  top: 1910px;
+  top: 2060px;
   left: 662px;
 }
 
@@ -1153,8 +1154,49 @@ align-items: center;
   margin-left: -5px;
 }
 
+.rectangle-icon3-1 {
+  font-size: 25px;
+  color: white;
+  border: 1px solid black;
+}
+
+.edit-diving01{
+  display: flex;
+
+}
+
+.change-color{
+  text-decoration: underline;
+  margin-top: 20px;
+  color: grey;
+  text-decoration: underline;
+}
+
+.select01{
+  width: 80px;
+  padding: 10px;
+  border: 1px solid grey;
+  margin-top: 20px;
+}
 
 
+.cancle01{
+  margin-top: 20px;
+  color: grey;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.edit-diving01 p{
+  font-size: 20px;
+  margin-left: 20px;
+  color: grey;
+ 
+}
+
+.edit-diving{
+  margin-top: 20px;
+}
 
 .sorted-p {
   font-size: 13px;
@@ -1170,7 +1212,7 @@ align-items: center;
 
 .new-sorted {
   border: 1px solid rgb(214, 211, 211);
-  width: 130px;
+  width: 180px;
   padding: 10px;
   padding-right: 70px;
   background-color: rgb(247, 247, 247);
@@ -1208,6 +1250,7 @@ align-items: center;
   background-color: #f0eded;
   text-align: center;
   width: 80%;
+ 
 }
 
 .freep {
@@ -2166,6 +2209,11 @@ text-decoration: underline;
   color: red;
 }
 
+.newest-edit1{
+  text-decoration: none;
+  color: black;
+}
+
 .button-divssection01-1{
   border: 1px solid rgb(229, 229, 229);
   margin-top: 50px;
@@ -2432,6 +2480,7 @@ margin-left: 8px;
   text-decoration: underline;
   margin-left: 10px;
   color: #5a5a5a;
+  cursor: pointer;
 
 }
 
@@ -2648,4 +2697,12 @@ margin-top: 5px;
 .there02{
   margin-left: 80px;
   margin-top: 50px;
+}
+
+.added-dp{
+  border: 1px dotted grey;
+  height: 150px;
+  margin-top: 20px;
+  z-index: 1;
+ 
 }

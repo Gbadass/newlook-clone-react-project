@@ -157,7 +157,7 @@ function Clothing() {
         <div className="clothing-innerdsect01" key={geraldData.id}>
           
           <img className="" src={items.image} alt="" />
-          <Link to={`/clothing/${items.category}/${items._id}`}>
+          <Link to={`/clothing/${items.category}/${items._id}`} className="newest-edit1">
           <div className="dicription-cont">
           
           <p className="clothinh-innerdsecp">{items.name}</p> <IoIosHeartEmpty className="heart-icon" />

@@ -132,7 +132,7 @@ const handleEvent = (e) => {
               {error === true && !/(?=.*\d)(?=.*[A-Z]).{8,}/.test(password) ? (
                 <span className="newred">{passwordDescription}</span>
               ) : null}
-              <p className="label-p">Use 7 or more characters atleast with 1 number</p>
+              <p className="label-p">Use 8 or more characters atleast with 1 number</p>
             </label>
           </div>
           <div className="title-div">

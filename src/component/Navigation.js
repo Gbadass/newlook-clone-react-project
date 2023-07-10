@@ -135,7 +135,9 @@ function Navigation() {
           </div>
 
           <div>
+            <Link to="/cart">
             <IoBagOutline className="icon-bag" />
+            </Link>
             <span className="cart-span">{cart.length? (cart.length) : (null)}</span>
           </div>
 
