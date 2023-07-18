@@ -20,7 +20,7 @@ import {  IoChevronForward } from "react-icons/io5";
 import img15 from "./images/WW-BUBBLES-CAMEOROSE-logo_1.jpg"
 import img16 from "./images/skinny-dip.jpg"
 import img17 from "./images/WW-BUBBLES-MELA-logo.jpg"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import image01 from "./images/image01.webp"
 import image02 from "./images/image02.webp"
 import image03 from "./images/image03.webp"
@@ -31,15 +31,35 @@ import img011 from "./images/img1.png"
 import img012 from "./images/img2.png"
 import img013 from "./images/img3.png"
 import img014 from "./images/img4.png"
+import img02Mobile from "./images/r2.jpeg";
+import img003Mobile from "./images/r1.jpeg";
+import img04Mobile from "./images/r3.jpeg";
+import img05Mobile from "./images/r4.jpeg";
+import img06Mobile from "./images/r5.jpeg";
+import img07Mobile from "./images/r6.jpeg";
 
 
 function First() {
 
   const [showNestedImages, setShowNestedImages] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const handleChevronClick = () => {
     setShowNestedImages(!showNestedImages);
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
 
   return (
 <div>
@@ -66,81 +86,95 @@ function First() {
       <h1 className="fourth-h1">Discover more</h1>
       <div className="fourth-div01">
         <div className="fourth-innerd1">
+        {windowWidth > 768 ? (
+          <div>
           <img src={img03} alt="" />
           <p className="div-p1">Curves</p>
+          </div>
+          ) : (
+            <img src={img02Mobile} alt="" />
+          )}
         </div>
         <div className="fourth-innerd1">
+        {windowWidth > 768 ? (
+          <div>
           <img src={img004} alt="" />
           <p className="div-p1">Maternity</p>
+          </div>
+          ) : (
+            <img src={img003Mobile} alt="" />
+          )}
         </div>
         <div className="fourth-innerd1">
+        {windowWidth > 768 ? (
+          <div>
           <img src={img005} alt="" />
           <p className="div-p1">Petite</p>
+          </div>
+          ) : (
+            <img src={img04Mobile} alt="" />
+          )}
         </div>
         <div className="fourth-innerd1">
+        {windowWidth > 768 ? (
+          <div>
           <img src={img06} alt="" />
           <p className="div-p1">Tall</p>
+          </div>
+          ) : (
+            <img src={img05Mobile} alt="" />
+          )}
         </div>
         <div className="fourth-innerd1">
+        {windowWidth > 768 ? (
+          <div>
           <img src={img07} alt="" />
           <p className="div-p1">New Look Kind</p>
+          </div>
+          ) : (
+            <img src={img06Mobile} alt="" />
+          )}
         </div>
         <div className="fourth-innerd1">
+        {windowWidth > 768 ? (
+          <div>
           <img src={img08} alt="" />
           <p className="div-p1">Homeware</p>
+          </div>
+          ) : (
+            <img src={img07Mobile} alt="" />
+          )}
         </div>
       </div>
 
       <h1 className="fourth-h1">Trending Branding....</h1>
       <div className="fourth-div0-1">
-        <div className="fourth-innerd1">
+        <div className="fourth-innerd11">
           <img src={img009} alt="" />
 
         </div>
-        <div className="fourth-innerd1">
+        <div className="fourth-innerd11">
           <img src={img100} alt="" />
 
         </div>
-        <div className="fourth-innerd1">
+        <div className="fourth-innerd11">
           <img src={img11} alt="" />
 
         </div>
-        <div className="fourth-innerd1">
+        <div className="fourth-innerd11">
           <img src={img12} alt="" />
 
         </div>
-        <div className="fourth-innerd1">
+        <div className="fourth-innerd11">
           <img src={img13} alt="" />
 
         </div>
-        <div className="fourth-innerd1">
+        <div className="fourth-innerd11">
           <img src={img14} alt="" />
 
         </div>
 
-{/* last three divs */}
-        {/* <div className="fourth-innerd1">
-          <img src={img15} alt="" />
 
-        </div> 
-
-        <div className="fourth-innerd1">
-          <img src={img16} alt="" />
-
-        </div>
-
-        <div className="fourth-innerd1">
-          <img src={img17} alt="" />
-
-        </div> */}
-
-
-
-        
-
-        {/* <div className="second-slide">
-
-        </div> */}
       </div>
       <div>
         <IoChevronForward className="arrowhead-icon"/>
@@ -173,7 +207,7 @@ function First() {
 <div>
   <div>
   <h1 className="fourth-h1">Shopping with us</h1>
-      <div className="fourth-div0-1">
+      <div className="fourth-div0-1w">
         <div className="fourth-innerd1">
           <img src={img09} alt="" />
 

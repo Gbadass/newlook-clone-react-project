@@ -1,4 +1,4 @@
-import { IconName, IoPersonOutline, IoLocationOutline, IoHeartOutline, IoBagOutline, IoSearch } from "react-icons/io5";
+import { IoMenuOutline, IoPersonOutline, IoLocationOutline, IoHeartOutline, IoBagOutline, IoSearch } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import Seven from "./Clothing";
 import { useState } from "react";
@@ -6,6 +6,9 @@ import { useContext } from "react";
 import { Newlookcontext } from "../component/Context/Newlookcontext";
 
 function Navigation() {
+
+
+
 
   const contextData = useContext(Newlookcontext) 
   const {cart, setCart} = contextData
@@ -61,11 +64,44 @@ function Navigation() {
     setIsSalesHovered(false);
   };
 
+  // 768 screensize menu 
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+const toggleMenu = () => {
+  setIsMenuOpen(!isMenuOpen);
+};
+
+const handleIconHover02 = () => {
+  setIsHovered(true);
+  setIsMenuOpen(false);
+};
+
+const handleIconLeave02 = () => {
+  setIsHovered(false);
+};
+
   
 
   return (
     <div>
+      <p className="newlook-screen">New Look</p>
       <nav className="nav01">
+        
+
+        <div className="respons-01">
+          <div className="inner-resp">
+          <IoMenuOutline className="menu-icon" onClick={toggleMenu} />
+          <IoSearch className="search-iconn"/>
+          <IoLocationOutline className="locats"/>
+          <IoHeartOutline className="heart-outline"/>
+          <IoBagOutline className="cart-bagss"/>
+        
+
+          </div>
+      
+
+        </div>
         <div className="cover002">
           <IoLocationOutline className="icon-location" />
           <p className="p01">Find a store</p>
@@ -75,6 +111,8 @@ function Navigation() {
         <div className={`cover001 ${isHovered ? "hovered" : ""}`}
           onMouseEnter={handleIconHover}
           onMouseLeave={handleIconLeave}>
+
+
           <p className="p03"> Account </p>
           <IoPersonOutline className="icons-user" />
           <div className="login-dropdown">
@@ -94,6 +132,7 @@ function Navigation() {
         </div> */}
 
       </nav>
+      
       <nav className="nav02">
         <ul className="ul-cover">
           <div className={`li01-div1 ${isWomenHovered ? "hovered" : ""}`}
@@ -109,7 +148,7 @@ function Navigation() {
           <div className={`li01-div3 ${isMensHovered ? "hovered" : ""}`}
           onMouseEnter={handleMensHover}
             onMouseLeave={handleMensLeave}>
-            <Link to="">
+            <Link to="" className="link-none">
               <li className="li-women3">Mens</li>
             </Link>
           </div>
@@ -144,6 +183,23 @@ function Navigation() {
         </div>
 
       </nav>
+
+      {isMenuOpen && (
+        <nav className="side-menu">
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/products">Products</Link>
+            </li>
+            {/* Add more menu items as needed */}
+          </ul>
+        </nav>
+      )}
 
       <nav className="nav03">
         <div className="nav03-div1">

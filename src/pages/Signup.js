@@ -4,13 +4,14 @@ import Footer from "../component/Footer";
 import image12 from "../component/images/8465706022.jpg"
 import image13 from "../component/images/new11.webp"
 import image14 from "../component/images/8465706013.jpg"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 
 
 function Signup() {
 
+  const Navigate = useNavigate()
 const [email, setEmail] = useState("")
 const [password, setPassword] = useState("")
 const [title, setTitle] = useState("")
@@ -62,6 +63,7 @@ const handleEvent = (e) => {
       console.log(data);
       setSignup(data)
       alert("sign up succesful")
+      Navigate("/login")
     })
     .catch((err) => {
       console.log(err)
@@ -161,7 +163,7 @@ const handleEvent = (e) => {
           <div className="email-div">
           <label   htmlFor="">Phone * <br />
               <input className="inputt01" value={phone} onChange={(e) => setPhone(e.target.value)}
-              type="text" /> <br />
+              type="number" /> <br />
 
               {error === true && phone === "" ? <span className="newred">Please enter phone</span>: null}
             </label>

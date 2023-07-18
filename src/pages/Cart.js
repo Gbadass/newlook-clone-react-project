@@ -136,7 +136,7 @@ const editFunc = (id,quantity) => {
               <option value="5">Qty:5</option>
             </select>
 
-            <p className="cancle01" onClick={() => setShowEdit("")}>Cancle</p>
+            <p className="cancle01" onClick={() => setShowEdit("")}>Cancel</p>
           </div>)}
 
 
